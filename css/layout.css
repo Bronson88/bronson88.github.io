@@ -1,0 +1,92 @@
+/****************
+Header Styles
+****************/
+.jumbotron {
+    margin-bottom: 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: black;
+    background: url("../img/background.jpg") 100% 0% no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.35);
+}
+
+.jumbotron h1 {
+    font-family: 'Sansita', sans-serif;
+    color: white;
+    font-size: 6rem;
+}
+
+.jumbotron p {
+    color: gainsboro;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*********************
+Main Content Styles
+*********************/
+.row {
+    margin: 0;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.about {
+    background-color: rgb(231, 231, 233);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.skills {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.dreams {
+    background-color: rgb(49, 85, 131);
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+.dreams span {
+    color: black !important;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.featurette-heading {
+    font-family: 'Raleway', sans-serif;
+}
+
+.featurette span {
+    font-size: 1.6rem;
+}
+
+
+/*********************
+Footer Styles
+**********************/
+.footer {
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+    background-color: black;
+    color: gainsboro;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer p a{
+    color: gainsboro;
+}
+
+body {
+    position: relative;
+}
