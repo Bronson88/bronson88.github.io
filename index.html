@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bronson Roybal</title>
+    <title>Bron's Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Sansita" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/layout.css" type="text/css">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Raleway" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target="#mainNavBar">
-
-<!--Navbar-->
-<nav id="mainNavBar" class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<!--NavBar-->
+<nav id="mainNavBar" class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#"><img height="50" width="100" src="img/bronsonlogo1.png"></a>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#divHome">Home <span class="sr-only">(current)</span></a>
@@ -31,21 +29,15 @@
             <li class="nav-item">
                 <a class="nav-link" href="#divDreams">Dreams</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contact
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="https://github.com/Bronson88">GitHub</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/Bronson88">GitHub</a>
             </li>
         </ul>
     </div>
 </nav>
-<!--/Navbar-->
-
-<!--Jumbotron-->
-<div id="divHome" class="jumbotron jumbotron-fluid mt-5">
+<!--/NavBar-->
+<!--Header-->
+<div id="divHome" class="jumbotron jumbotron-fluid">
     <div class="cover">
         <div class="container text-center">
             <h1 class="display-3 container">Bronson Roybal</h1>
@@ -53,99 +45,115 @@
         </div>
     </div>
 </div>
-<!--/Jumbotron-->
-
-<!--Main Content-->
-<div class="marketing">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 text-center">
-                <img class="rounded-circle mx-auto d-block" src="img/fashion.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2 class="text-center">The Crooked Closet</h2>
-                <p class="">This is a Django website I developed for my girlfriend. It's a blog on ethically sourced clothing and the impact it has on our environment and culture.</p>
-                <p>Hosted on Heroku's free service, so it may take a second to load.</p>
-                <p><a class="btn btn-primary" href="https://erinblog.herokuapp.com/" role="button"><strong>CHECK IT OUT</strong></a></p>
+<!--/Header-->
+<!--Website Showcase-->
+<div class="container">
+    <h1 class="text-center portfolio">Portfolio</h1>
+    <hr class="mt-4">
+    <div class="row card-deck">
+        <div class="photo-container card col-md-4">
+            <div class="photo">
+                <img class="img-fluid" src="https://static.pexels.com/photos/2156/sky-earth-space-working.jpg">
+                <div class="photo-overlay text-center container">
+                    <h3>Baskets by Lila</h3>
+                    <p>This is a Django website I developed for my mother on her newly started basket business.</p>
+                    <a href="https://baskets-lila.herokuapp.com/" class="btn btn-primary">Check It Out</a>
+                </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <img class="rounded-circle mx-auto d-block" src="img/basket.jpeg" alt="Generic placeholder image" width="140" height="140">
-                <h2 class="text-center">Baskets by Lila</h2>
-                <p class="">This is another Django website I developed. However, this one is for my mother and her newly started basket business.</p>
-                <p><a class="btn btn-primary" href="https://baskets-lila.herokuapp.com/" role="button"><strong>CHECK IT OUT</strong></a></p>
+        </div>
+        <div class="photo-container card col-md-4">
+            <div class="photo">
+                <img class="img-fluid" src="https://static.pexels.com/photos/23789/pexels-photo.jpg" alt="A mountainous landscape">
+                <div class="photo-overlay text-center container">
+                    <h3>The Crooked Closet</h3>
+                    <p>This is a Django website I developed for my girlfriend. It's a blog on ethically sourced clothing
+                        and the impact it has on our environment.</p>
+                    <a href="https://erinblog.herokuapp.com/" class="btn btn-primary">Check It Out</a>
+                </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <img class="rounded-circle mx-auto d-block" src="img/bar.jpg" alt="Generic placeholder image" width="140" height="140">
-                <h2 class="text-center">SpaceBar</h2>
-                <p class="">This is a Django web application that let's you see how crowded or how much space is currently available at a bar.</p>
-                <p><a class="btn btn-danger" href="#" role="button"><strong>UNDER-CONSTRUCTION</strong></a></p>
+        </div>
+        <div class="photo-container card col-md-4">
+            <div class="photo">
+                <img class="img-fluid" src="https://static.pexels.com/photos/2166/flight-sky-earth-space.jpg" alt="Yosemite national park">
+                <div class="photo-overlay text-center container">
+                    <h3>Fat Taddy</h3>
+                    <p>A Django web application that consists of satirical reviews of New Mexican craft beers.</p>
+                    <a href="#" class="btn btn-primary">Under-Construction</a>
+                </div>
             </div>
         </div>
     </div>
-    <!--/Main Content-->
-
-    <!--About Section-->
-    <div id="divAbout" class="row featurette about">
+    <p class="text-center mt-5 hidden-text">Websites hosted on Heroku's free service, so it might take a few seconds to load.</p>
+<!--/Website Showcase-->
+    <hr id="divAbout">
+<!--About-->
+    <div class="row">
         <div class="col-md-7">
-            <h2 class="featurette-heading">About me <br><span class="text-muted">Web App Developer</span></h2>
-            <p class="lead">I'm a developer from Albuquerque, New Mexico. I love building web apps in Django, Ruby on Rails, and messing around with some
-                python. I'm a huge gamer as well, I just can't get enough VR at the moment. I live with my wonderful girlfriend and as you can see I have a great pup that loves to sleep.</p>
+            <img class="img-fluid" src="img/sleepypup.jpg">
         </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto img-thumbnail" width="800" height="800" src="img/sleepypup.jpg" data-src="holder.js/500x500/auto" alt="picture of me">
+        <div class="col-md-5 content">
+            <h2>About</h2>
+            <h4>Web App Developer</h4>
+            <p>I'm a developer from Albuquerque, New Mexico. I love building web apps in Django, Ruby on Rails, and
+                messing around with some python. I'm a huge gamer as well, I just can't get enough VR at the moment. I
+                live with my wonderful girlfriend and as you can see I have a great pup that loves to sleep.</p>
         </div>
     </div>
-    <!--/About Section-->
-
-    <!--Skills Section-->
-    <div id="divSkills" class="row featurette skills">
-        <div class="col-md-7 push-md-7">
-            <h2 class="featurette-heading skills-heading">Skills<br><span class="text-muted">Technologies and Languages</span></h2>
-            <ul class="lead skills-list">
-                <li>Python</li>
-                <li>Django</li>
-                <li>Ruby</li>
-                <li>Ruby on Rails</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>jQuery</li>
-                <li>Heroku</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>SQL</li>
-                <li>Photoshop</li>
+<!--/About-->
+    <hr id="divSkills">
+<!--Skills-->
+    <div class="row">
+        <div class="col-md-5 content2">
+            <h2>Skills</h2>
+            <h4>Technologies and Languages</h4>
+            <ul>
+                <li><i><object type="image/svg+xml" data="img/python.svg" height="40"></object></i>&nbsp;Python</li>
+                <li><img src="https://www.stevecoursen.com/wp-content/uploads/2013/05/unicorn.png" height="40">&nbsp;Django</li>
+                <li><i><object type="image/svg+xml" data="img/rails.svg" width="40"></object></i>&nbsp;Ruby on Rails</li>
+                <li><i class="fa fa-html5 fa-2x" aria-hidden="true" width="40"></i>&nbsp;HTML</li>
+                <li><i class="fa fa-css3 fa-2x" aria-hidden="true" width="40"></i>&nbsp;CSS</li>
+                <li><i><object type="image/svg+xml" data="img/js.svg" width="40"></object></i>&nbsp;JavaScript</li>
+                <li><i><object type="image/svg+xml" data="img/bootstrap.svg" width="40"></object></i>&nbsp;Bootstrap</li>
+                <li><img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/jquery-512.png" width="40">&nbsp;jQuery</li>
+                <li><img src="https://maxcdn.icons8.com/Share/icon/androidL/Logos//heroku1600.png" width="40">&nbsp;Heroku</li>
+                <li><i class="fa fa-git fa-2x" aria-hidden="true"></i>&nbsp;Git</li>
+                <li><i class="fa fa-github fa-2x" aria-hidden="true"></i>&nbsp;GitHub</li>
+                <li><img src="http://s3-ap-southeast-1.amazonaws.com/onevive/staging/interaksyon2/infotech/assets/2016/04/04155633/sql-icon.png" width="40">&nbsp;SQL</li>
+                <li><i><object type="image/svg+xml" data="img/photoshop.svg" width="40"></object></i>&nbsp;Photoshop</li>
+                <li><i><object type="image/svg+xml" data="img/illustrator.svg" width="40"></object></i>&nbsp;Illustrator</li>
             </ul>
         </div>
-        <div class="col-md-5 pull-md-7 img-skills">
-            <img class="featurette-image img-fluid mx-auto img-thumbnail" src="img/skills.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-    </div>
-    <!--/Skills Section-->
-
-    <!--Dreams Section-->
-    <div id="divDreams" class="row featurette dreams">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Dreams <br><span class="text-muted">Hopes</span></h2>
-            <p class="lead">When I grow up I want to be an astronaut, maybe even the first person on Mars. All jokes aside, I know this is a strange section for
-                a resume website, but there is so much more to working with someone than just their skills. How well personalities mix is also a big factor. There isn't
-                much I can say in this tiny section, but I can tell you I'm not here to save the world. However, I'll try my damnedest to better my little part of it.
-                Whether that's through trying to make people laugh or building websites for non-profits that need all the help they can get. Happiness, humor, health and getting the
-                job done is what its all about.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto img-thumbnail" src="img/nasa.jpg" data-src="holder.js/500x500/auto" alt="picture of Buzz Aldrin">
+            <img class="img-fluid" src="https://static.pexels.com/photos/201696/pexels-photo-201696.jpeg">
         </div>
     </div>
-    <!--/Dreams Section-->
-
-    <!--Footer-->
-    <footer class="footer mt-5">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Bronson Roybal</p>
-    </footer>
-    <!--/Footer-->
-
+<!--/Skills-->
+    <hr id="divDreams">
+<!--Dreams-->
+    <div class="row">
+        <div class="col-md-7">
+            <img class="img-fluid" src="https://static.pexels.com/photos/24895/pexels-photo-24895.jpg">
+        </div>
+        <div class="col-md-5 content3">
+            <h2>Dreams</h2>
+            <h4>Hopes</h4>
+            <p>When I grow up I want to be an astronaut, maybe even the first person on Mars. All jokes aside,
+                I know this is a strange section for a resume website, but there is so much more to working with someone
+                than just their skills. How well personalities mix is also a big factor. There isn't much I can say in
+                this tiny section, but I can tell you I'm not here to save the world. However, I'll try my damnedest to
+                better my little part of it. Whether that's through trying to make people laugh or building websites for
+                non-profits that need all the help they can get. Happiness, humor, health and getting the job done is
+                what its all about.</p>
+        </div>
+    </div>
+<!--/Dreams-->
 </div>
+<!--Footer-->
+<footer class="footer mt-5">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017 Bronson Roybal</p>
+</footer>
+<!--/Footer-->
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
