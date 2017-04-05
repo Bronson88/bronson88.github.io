@@ -5,7 +5,8 @@ body {
 }
 
 p,
-h4 {
+h4,
+li {
     font-family: 'Raleway', sans-serif;
 }
 
