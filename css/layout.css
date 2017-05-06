@@ -27,8 +27,8 @@ ul {
 /*Navigation Styles
 *************************************/
 .navbar {
-    background-color: #88cba2;
-    box-shadow: 1px 1px 3px black;
+    background-color: transparent;
+    /*box-shadow: 1px 1px 3px black;*/
 }
 
 .nav-link {
@@ -55,10 +55,10 @@ ul {
 .jumbotron {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    background-color: black;
-    background: url("../img/spacefinal.svg") 100% 18% no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #88cba2;
+    background: url("../img/spaceground.svg") 100% 80% no-repeat;
     background-size: cover;
     box-shadow: 1px 1px 10px black;
 }
@@ -78,6 +78,15 @@ ul {
     font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px 1px black;
 }
+
+#animatedElement {
+    visibility: hidden;
+}
+
+#animatedcastle {
+    visibility: hidden;
+}
+
 /*Website Showcase Styles
 ************************************/
 .photo-overlay {
@@ -105,33 +114,37 @@ ul {
 }
 
 .btn {
-    background-color: rgba(136, 203, 162, .7)!important;
+    background-color: transparent;
     margin-top: 1rem;
     opacity: 0;
     transition-duration: .4s;
     transition-property: opacity;
-    transition-delay: .4s;
-    border: none;
+    transition-delay: .8s;
+    border-color: #62c5bf !important;
 }
 
 /*Main Content Sections Styles
 ***************************************/
 .portfolio {
-    margin-top: 2rem;
-    margin-bottom: 1em;
-    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 6rem;
     font-family: 'Bree Serif', serif;
-    text-shadow: 2px 2px 4px #88cba2;
+    text-shadow: 2px 2px 4px #62c5bf;
     transition-duration: .4s;
     transition-property: text-shadow;
+    z-index: 99;
+    background: url("../img/ufoattack.svg") 100% 18% no-repeat;
+    background-position: center;
 }
 
 .portfolio h1 {
     margin: 0;
+
 }
 
 .portfolio:hover {
-    text-shadow: 10px 10px 4px #88cba2;
+    text-shadow: 10px 10px 4px #62c5bf;
 }
 /*Interaction Styles
 ************************************/
