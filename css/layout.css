@@ -133,9 +133,6 @@ ul {
     text-shadow: 2px 2px 4px #62c5bf;
     transition-duration: .4s;
     transition-property: text-shadow;
-    z-index: 99;
-    background: url("../img/ufoattack.svg") 100% 18% no-repeat;
-    background-position: center;
 }
 
 .portfolio h1 {
