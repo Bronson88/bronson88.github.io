@@ -119,7 +119,7 @@ ul {
     opacity: 0;
     transition-duration: .4s;
     transition-property: opacity;
-    transition-delay: .8s;
+    transition-delay: .5s;
     border-color: #62c5bf !important;
 }
 
