@@ -45,7 +45,7 @@
     <div class="cover">
         <div class="container text-center">
             <h1 class="display-3 container">Bronson Roybal</h1>
-            <p class="lead">Full-Stack Developer</p>
+            <p class="lead">Web Application Developer</p>
         </div>
     </div>
 </div>
@@ -54,50 +54,68 @@
 <div class="container">
     <h1 class="text-center portfolio">Portfolio</h1>
     <hr class="mt-4">
-    <div class="row card-deck">
-        <div class="photo-container card col-md-4">
-            <div class="photo">
-                <img class="img-fluid" src="img/baskets-mockup.jpg">
-                <div class="photo-overlay text-center container">
-                    <h3>Baskets by Lila</h3>
-                    <p>This is a Django website I developed for a newly started basket business.</p>
-                    <a href="https://baskets-lila.herokuapp.com/" class="btn btn-primary">Check It Out</a>
-                </div>
-            </div>
-        </div>
-        <div class="photo-container card col-md-4">
-            <div class="photo">
-                <img class="img-fluid" src="img/blog-mockup.jpg" alt="A mountainous landscape">
-                <div class="photo-overlay text-center container">
-                    <h3>The Crooked Closet</h3>
-                    <p>This is another Django website I developed. It's a blog on ethically sourced clothing
-                        and the impact it has on our environment.</p>
-                    <a href="https://erinblog.herokuapp.com/" class="btn btn-primary">Check It Out</a>
-                </div>
-            </div>
-        </div>
-        <div class="photo-container card col-md-4">
-            <div class="photo">
-                <img class="img-fluid" src="img/fatty-mockup.jpg" alt="Fatty Taddy Website">
-                <div class="photo-overlay text-center container">
-                    <h3>Fat Taddy</h3>
-                    <p>A Django web application that consists of satirical reviews of New Mexican craft beers.</p>
-                    <a href="#" class="btn btn-danger">Under-Construction</a>
-                </div>
+    <div class="container review-teaser">
+        <div class="row">
+            <div class="col-md-5 review-block row">
+                <header>
+                    <h1 class="col-12 mt-3">Baskets by Lila</h1>
+                    <h5 class="col-12 text-muted mt-3"><i class="fa fa-wrench" style="color: indianred;" aria-hidden="true"></i>&nbsp;Technologies & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages</h5>
+                </header>
+                <ul class="col-10 mt-3">
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;Python (Django)</li>
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;HTML & CSS (Bootstrap 4)</li>
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;JavaScript (jQuery)</li>
+                </ul>
+                <a href="https://baskets-lila.herokuapp.com/"><i class="fa fa-chevron-right col-2 mt-5" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
-    <p class="text-center mt-5 hidden-text">Websites hosted on Heroku's free service, so it might take a few seconds to load.</p>
+    <hr class="">
+    <div class="closet-teaser container">
+        <div class="row">
+            <div class="basket-block col-md-5 offset-md-7 row">
+                <header>
+                    <h1 class="col-12 mt-3">The Crooked Closet</h1>
+                    <h5 class="col-12 text-muted mt-3"><i class="fa fa-wrench" style="color: indianred;" aria-hidden="true"></i>&nbsp;Technologies & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages</h5>
+                </header>
+                <ul class="col-10 mt-3">
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;Python (Django)</li>
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;HTML & CSS (Bootstrap 4)</li>
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;JavaScript (jQuery)</li>
+                </ul>
+                <a href="https://erinblog.herokuapp.com/"><i class="fa fa-chevron-right col-2 mt-5" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container fat-teaser">
+        <div class="row">
+            <div class="col-md-5 review-block row pt-5">
+                <header>
+                    <h1 class="col-12 mt-3">Fat Taddy</h1>
+                    <h5 class="col-12 text-muted mt-3"><i class="fa fa-wrench" style="color: indianred;" aria-hidden="true"></i>&nbsp;Technologies & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Languages</h5>
+                </header>
+                <ul class="col-10 mt-3">
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;Python (Django)</li>
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;HTML & CSS (Bootstrap 4)</li>
+                    <li class="my-4"><i class="fa fa-code" style="color: indianred;" aria-hidden="true"></i>&nbsp;JavaScript (jQuery)</li>
+                </ul>
+                <a href="#"><i class="fa fa-chevron-right col-2 mt-5" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
 <!--/Website Showcase-->
     <hr id="divAbout">
 <!--About-->
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-8">
             <img class="img-fluid" src="img/sleepypup.jpg">
         </div>
-        <div class="col-md-5 content">
-            <h2><i class="fa fa-rocket fa-3x tossing" aria-hidden="true" style="color: cornflowerblue;"></i>About</h2>
-            <h4>Web App Developer</h4>
+        <div class="col-md-4 content">
+            <header class="my-3">
+                <h2><i class="fa fa-rocket fa-2x tossing" aria-hidden="true" style="color: cornflowerblue;"></i>About</h2>
+                <h5 class="text-muted">Web App Developer</h5>
+            </header>
             <p>I'm a developer from Albuquerque, New Mexico. I love building web apps in Django, Ruby on Rails, and
                 messing around with some python. I'm a huge gamer as well, I just can't get enough VR at the moment. I
                 live with my wonderful girlfriend and as you can see I have a great pup that loves to sleep.</p>
@@ -107,14 +125,16 @@
     <hr id="divSkills">
 <!--Skills-->
     <div class="row">
-        <div class="col-md-5 content2">
-            <h2><i id="animatedElement" class="fa fa-wrench fa-3x" aria-hidden="true" style="color: #88cba2;"></i>Skills</h2>
-            <h4>Technologies and Languages</h4>
+        <div class="col-md-4 content2">
+            <header class="my-3">
+                <h2><i id="animatedElement" class="fa fa-wrench fa-2x" aria-hidden="true" style="color: #88cba2;"></i>Skills</h2>
+                <h5 class="text-muted">Technologies & Languages</h5>
+            </header>
             <ul>
                 <li><i class="fa fa-space-shuttle fa-2x" aria-hidden="true"></i>&nbsp;Python (Django)</li>
                 <li><i class="fa fa-coffee fa-2x" aria-hidden="true"></i>&nbsp;Java</li>
                 <li><i class="fa fa-diamond fa-2x" aria-hidden="true"></i>&nbsp;Ruby on Rails</li>
-                <li><i class="fa fa-html5 fa-2x" aria-hidden="true"></i>&nbsp;HTML</li>
+                <li><i class="fa fa-html5 fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;HTML</li>
                 <li><i class="fa fa-css3 fa-2x" aria-hidden="true"></i>&nbsp;CSS (Bootstrap)</li>
                 <li><i class="fa fa-code fa-2x" aria-hidden="true"></i>&nbsp;JavaScript (jQuery)</li>
                 <li><i class="fa fa-git fa-2x" aria-hidden="true"></i>&nbsp;Git</li>
@@ -126,24 +146,26 @@
                     <span class="sr-only">Loading...</span>Illustrator</li>
             </ul>
         </div>
-        <div class="col-md-7">
-            <img class="img-fluid" src="https://static.pexels.com/photos/330771/pexels-photo-330771.jpeg">
+        <div class="col-md-8">
+            <img class="img-fluid" src="https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg">
         </div>
     </div>
 <!--/Skills-->
     <hr id="divDreams">
 <!--Dreams-->
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-8">
             <img class="img-fluid" src="https://static.pexels.com/photos/24895/pexels-photo-24895.jpg">
         </div>
-        <div class="col-md-5 content3">
-            <h2><i id="animatedcastle" class="fa fa-fort-awesome fa-3x" aria-hidden="true" style="color: mediumpurple;"></i>Dreams</h2>
-            <h4>Hopes</h4>
+        <div class="col-md-4 content3">
+            <header class="my-3">
+                <h2><i id="animatedcastle" class="fa fa-fort-awesome fa-2x" aria-hidden="true" style="color: mediumpurple;"></i>Dreams</h2>
+                <h5 class="text-muted">Hopes</h5>
+            </header>
             <p>When I grow up I want to be an astronaut, maybe even the first person on Mars. All jokes aside,
                 I know this is a strange section for a resume website, but there is so much more to working with someone
                 than just their skills. How well personalities mix is also a big factor. There isn't much I can say in
-                this tiny section, but I can tell you I'm not here to save the world. However, I'll try my hardest to
+                this tiny section, but I can tell you I'm not here to save the world. However, I'll try my damnedest to
                 better my little part of it. Whether that's through trying to make people laugh or building websites for
                 non-profits that need all the help they can get. Happiness, humor, health and getting the job done is
                 what its all about.</p>
@@ -177,7 +199,7 @@
 
             var topOfWindow = $(window).scrollTop();
             if (imagePos < topOfWindow+800) {
-                $(this).addClass("hatch");
+                $(this).addClass("slideLeft");
             }
         });
     });
