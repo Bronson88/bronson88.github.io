@@ -40,7 +40,7 @@ li {
 ***********************************************/
 .start-page {
     background-color: rgba(52, 152, 219,1.0);
-    height: 93vh;
+    height: 93%;
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
@@ -56,6 +56,23 @@ li {
     opacity: .8;
 }
 
+.cloud {
+    position: absolute;
+    top: 45%;
+    left: 48%
+}
+
+.cloud2 {
+    position: absolute;
+    top: 35%;
+    left: 83%;
+}
+
+.bubble {
+    position: absolute;
+    top: 19%;
+    left: 60%;
+}
 /*About Page
 ***********************************************/
 .about-page {
