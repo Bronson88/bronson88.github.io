@@ -14,10 +14,19 @@ body {
     border-bottom: 1px solid black;
 }
 
+hr {
+    width: 20rem;
+    margin-left: 0;
+}
+
 /*Index Page Styles
 ***************************************************************/
 .content {
     margin-top: 25%;
+}
+
+.resume-content {
+    margin-top: 15%;
 }
 
 .about {
@@ -42,14 +51,18 @@ body {
 /*Portfolio Page Styles
 ***************************************************************/
 .sites:hover {
-    transition-duration: 1s;
+    transition-duration: .8s;
     transform: scale(1.1);
 }
+
+
 
 .bounce-in-top {
     -webkit-animation: bounce-in-top 1.1s both;
     animation: bounce-in-top 1.1s both;
 }
+
+
 
 /*Animations
 ***********************************/
