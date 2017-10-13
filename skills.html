@@ -4,85 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bronson's Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="css/layout.css" type="text/css">
 </head>
 <body>
-<!--NavBar-->
-<nav class="navbar navbar-light bg-faded navbar-toggleable-md">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleCenteredNav" aria-controls="navbarsExampleCenteredNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav>
+        <div class="nav-wrapper red lighten-3">
+            <a href="#!" class="brand-logo"><img height="65" src="img/dragon.png"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><div class="user-view">
+                    <div class="background">
+                        <img class="responsive-img" src="https://static.pexels.com/photos/316594/pexels-photo-316594.jpeg">
+                    </div>
+                    <a href="#!user"><img class="circle" src="https://pbs.twimg.com/profile_images/851617148141060096/lxqrUZy__400x400.jpg"></a>
+                    <a href="#!name"><span class="white-text name">Bronson Roybal</span></a>
+                    <a href="#!email"><span class="white-text email">Web App Developer</span></a>
+                </div></li>
+                <li><a href="index.html"><i class="material-icons blue-text text-lighten-2">home</i>Home</a></li>
+                <li><a href="skills.html"><i class="material-icons">code</i>Skills</a></li>
+                <li><a href="portfolio.html"><i class="material-icons">computer</i>Portfolio</a></li>
+                <li><a href="resume.html"><i class="material-icons">code</i>Resume</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Contact Me</a></li>
+                <li><a class="waves-effect" href="#!">Twitter</a></li>
+                <li><a class="waves-effect" href="#!">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExampleCenteredNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="dreams.html">Resume</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!--/NavBar-->
-<!--Main Content-->
-<div class="container">
-    <div class="row content">
-        <div class="col-sm-12 col-md-7">
-            <h2>Skills</h2>
-            <h4 style="border-bottom: 1px solid black; padding-bottom: .8rem; color: orangered;">Languages & Technologies</h4>
-            <div class="row skills-row mt-4">
-                <div class="col-3 text-center">
-                    <img width="48" src="img/python.svg">
-                    <h6>Python (Django)</h6>
-                </div>
-                <div class="col-3 text-center">
-                    <img width="48" src="img/js.svg">
-                    <h6>JavaScript (React, Express.js)</h6>
-                </div>
-                <div class="col-3 text-center">
-                    <i class="fa fa-diamond fa-3x" style="color:black;" aria-hidden="true"></i>
-                    <h6>Ruby (Ruby on Rails)</h6>
-                </div>
-                <div class="col-3 text-center">
-                    <i class="fa fa-html5 fa-3x" style="color:black;" aria-hidden="true"></i>
-                    <h6>HTML & CSS (Bootstrap, Pug)</h6>
-                </div>
-                <div class="col-3 text-center">
-                    <i class="fa fa-database fa-3x" style="color:black;" aria-hidden="true"></i>
-                    <h6>SQL, MongoDB</h6>
-                </div>
-                <div class="col-3 text-center">
-                    <i class="fa fa-github fa-3x" style="color:black;" aria-hidden="true"></i>
-                    <h6>Git & GitHub</h6>
-                </div>
-                <div class="col-3 text-center">
-                    <i class="fa fa-desktop fa-3x" style="color:black;" aria-hidden="true"></i>
-                    <h6>Heroku</h6>
-                </div>
-                <div class="col-3 text-center">
-                    <i class="fa fa-cog fa-spin fa-3x fa-fw" style="color:black;"></i><span class="sr-only">Loading...</span>
-                    <h6>Photoshop & Illustrator</h6>
+
+    <div class="container home-container">
+        <div class="row content">
+            <div class="col s12 m6">
+                <h2><b>Skills</b></h2>
+                <h4 style="border-bottom: 1px solid black; padding-bottom: .8rem; color: orangered;">Languages & Technologies</h4>
+                <div class="row center">
+                    <div class="col s3" style="padding-bottom: -4rem;">
+                        <img class="skills-icon" width="48" src="img/python.svg">
+                        <h6>Python (Django)</h6>
+                    </div>
+                    <div class="col s3">
+                        <img class="skills-icon" width="48" src="img/js.svg">
+                        <h6>JavaScript (React, Express.js)</h6>
+                    </div>
+                    <div class="col s3">
+                        <i class="fa fa-diamond fa-3x" style="color:black;" aria-hidden="true"></i>
+                        <h6>Ruby (Ruby on Rails)</h6>
+                    </div>
+                    <div class="col s3">
+                        <i class="fa fa-html5 fa-3x" style="color:black;" aria-hidden="true"></i>
+                        <h6>HTML & CSS (Bootstrap, Materialize, Pug)</h6>
+                    </div>
+                    <div class="col s3">
+                        <i class="fa fa-database fa-3x" style="color:black;" aria-hidden="true"></i>
+                        <h6>SQL, MongoDB</h6>
+                    </div>
+                    <div class="col s3">
+                        <i class="fa fa-github fa-3x" style="color:black;" aria-hidden="true"></i>
+                        <h6>Git & GitHub</h6>
+                    </div>
+                    <div class="col s3">
+                        <i class="fa fa-desktop fa-3x" style="color:black;" aria-hidden="true"></i>
+                        <h6>Heroku</h6>
+                    </div>
+                    <div class="col s3">
+                        <i class="fa fa-cog fa-spin fa-3x fa-fw" style="color:black;"></i><span class="sr-only">Loading...</span>
+                        <h6>Photoshop & Illustrator</h6>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-12 col-md-5">
-            <img class="img-fluid" src="img/hippo.png">
+            <div class="col s12 m6">
+                <img class="responsive-img" src="img/mammoth.png">
+            </div>
         </div>
     </div>
-</div>
-<!--/Main Content-->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+            
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(".button-collapse").sideNav();           
+</script>
 </body>
 </html>
