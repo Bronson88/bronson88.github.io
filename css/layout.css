@@ -1,39 +1,26 @@
 /*General Styles
-**************************************************************/
+**************************************/
 body {
-    height: 100%;
-    font-family: 'Josefin Sans', sans-serif;
     background-color: #f8f7f3;
+    font-family: 'Raleway', sans-serif;
 }
 
-.navbar {
-    background-color: #f8f7f3 !important;
+h1 {
+    font-family: 'Raleway';
 }
 
-.active {
-    border-bottom: 1px solid black;
+.skills-icon {
+    margin-bottom: -.6rem;
 }
 
-hr {
-    width: 20rem;
-    margin-left: 0;
+.tech-skills ul li {
+    list-style: square !important;
 }
 
-/*Index Page Styles
-***************************************************************/
-.content {
-    margin-top: 25%;
-}
-
-.resume-content {
+/*Index Styles
+**************************************/
+.home-container {
     margin-top: 15%;
-}
-
-.about {
-    color: rgba(52, 152, 219,1.0);
-}
-.fa-twitter {
-    color: #00aced;
 }
 
 .fa-twitter:hover {
@@ -46,6 +33,19 @@ hr {
 
 .fa-github:hover {
     color: purple;
+}
+
+/*Portfolio Styles
+**************************************/
+.portfolio-container {
+    margin-top: 5%;
+}
+
+
+/*Resume Styles
+**************************************/
+.job-skills li {
+    list-style: square !important;
 }
 
 /*Portfolio Page Styles
