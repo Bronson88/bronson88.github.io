@@ -5,212 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bronson's Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/layout.css" type="text/css">
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper indigo lighten-3">
-            <a href="index.html" class="brand-logo"><img height="65" src="img/dragon.png"></a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><div class="user-view">
-                    <div class="background">
-                        <img class="responsive-img" src="https://static.pexels.com/photos/316594/pexels-photo-316594.jpeg">
-                    </div>
-                    <a href="#!user"><img class="circle" src="https://pbs.twimg.com/profile_images/919877797870366729/sqacCMJg_400x400.jpg"></a>
-                    <a href="#!name"><span class="white-text name">Bronson Roybal</span></a>
-                    <a href="#!email"><span class="white-text email">Web App Developer</span></a>
-                </div></li>
-                <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-                <li><a href="skills.html"><i class="material-icons">code</i>Skills</a></li>
-                <li><a href="portfolio.html"><i class="material-icons blue-text text-lighten-2">computer</i>Portfolio</a></li>
-                <li><a href="resume.html"><i class="material-icons">assessment</i>Resume</a></li>
-                <li><div class="divider"></div></li>
-                <li><a class="subheader">Contact Me</a></li>
-                <li><a class="waves-effect" href="https://twitter.com/BronsonRoybal"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>Twitter</a></li>
-                <li><a class="waves-effect" href="https://github.com/Bronson88"><i class="fa fa-github fa-2x" aria-hidden="true"></i>GitHub</a></li>
-            </ul>
-        </div>
-    </nav>
-
-
-
-<div class="container portfolio-container">
-    <h1 class="indigo-text text-lighten-3"><b>Portfolio</b></h1>
-    <div class="divider"></div>
-    <h3>Live Sites</h3>
-    <div class="row">
-        <div class="col m4">
-        <!-- Modal Trigger -->
-            <a class="waves-effect waves-purple modal-trigger sites" href="#modal1"><img class="responsive-img" src="https://farm5.staticflickr.com/4496/37409918100_1949967660_o.png"></a>
-            <h4 class="center grey-text text-darken-1">SpaceBars</h4>
-        </div>
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <img class="responsive-img" src="https://farm5.staticflickr.com/4496/37409918100_1949967660_o.png">
-                        <h3>SpaceBars</h3>
-                        <div class="divider"></div>
-                        <h5>Languages & Technologies</h5>
-                        <ul>
-                            <li>Python (Django)</li>
-                            <li>JavaScript (jQuery)</li>
-                            <li>HTML & CSS (Materialize)</li>
-                        </ul>
-                        <h6>Web application that allows you to check out how crowded your favorite bar is before you leave the house. So you won't be stuck standing around.</h6>
-                    </div>
+<div class="background">
+    <div class="main">  
+    <!-- Navigation -->
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img height="80" src="img/avatar.svg" alt=""></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">About</a>
+                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="resume.html">Resume</a>
                 </div>
             </div>
-            <div class="modal-footer">
-                <a href="https://crowd-app.herokuapp.com/" class="btn waves-effect waves-purple blue">Vist Website</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-purple btn red">Close</a>
+        </nav>
+    <!-- /Navigation -->
+    <!-- Header -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center">
+                <h1 class="display-3">I'm Bronson</h1>
+                <p class="lead">Web Application & Front End Developer.</p>
             </div>
         </div>
-            
-        <div class="col m4">
-        <!-- Modal Trigger -->
-            <a class="waves-effect waves-purple modal-trigger sites" href="#modal2"><img class="responsive-img" src="https://farm5.staticflickr.com/4431/36984424370_094a62ef8e_o.png"></a>
-            <h4 class="center grey-text text-darken-1">Fat Taddy</h4>
-        </div>
-        <!-- Modal Structure -->
-        <div id="modal2" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <img class="responsive-img" src="https://farm5.staticflickr.com/4431/36984424370_094a62ef8e_o.png">
-                        <h3>Fat Taddy</h3>
-                        <div class="divider"></div>
-                        <h5>Languages & Technologies</h5>
-                        <ul>
-                            <li>Python (Django)</li>
-                            <li>JavaScript (jQuery)</li>
-                            <li>HTML & CSS (Bootstrap)</li>
-                        </ul>
-                        <h6>This is a web application which contains satrical reviews of local New Mexican craft beer.</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a href="https://fat-taddy.herokuapp.com/" class="btn waves-effect waves-purple blue">Vist Website</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-purple btn red">Close</a>
-            </div>
-        </div>             
+    <!-- /Header -->
     </div>
-
-    <div class="row">
-        <h3>Sleeping Sites</h3>
-        <h5 class="grey-text text-darken-1">Give these guys a second to load, they have been sleeping.</h5>
-    
-        <div class="col m4">
-        <!-- Modal Trigger -->
-            <a class="waves-effect waves-purple modal-trigger sites" href="#modal3"><img class="responsive-img" src="https://farm5.staticflickr.com/4506/37239641151_769a5cb25d_o.png"></a>
-            <h4 class="center grey-text text-darken-1">Book Nerd</h4>
+</div>  
+<!-- Main Content -->
+    <div class="container mb-4">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <img class="mx-auto" height="150" src="img/avatar.svg">
+            </div>
+            <div class="col-md-12">
+                <h1>Portfolio</h1>
+                <p class="col-md-6 offset-md-3">Here are a few examples of my work. The first two sites SpaceBar and Fat Taddy 
+                    are live, while the rest are sleeping so give them a second 
+                    to load, thank you.</p>
+            </div>
         </div>
-        <!-- Modal Structure -->
-        <div id="modal3" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <img class="responsive-img" src="https://farm5.staticflickr.com/4506/37239641151_769a5cb25d_o.png">
-                        <h3>Book Nerd</h3>
-                        <div class="divider"></div>
-                        <h5>Languages & Technologies</h5>
-                        <ul>
-                            <li>Node.js (Express)</li>
-                            <li>JavaScript (jQuery)</li>
-                            <li>HTML & CSS (Bootstrap, Pug)</li>
-                        </ul>
-                        <h6>Fake company website, just to show off various front end development techniques.</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a href="https://fakecompanysite.herokuapp.com/" class="btn waves-effect waves-purple blue">Vist Website</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-purple btn red">Close</a>
-            </div>
-        </div>                      
-
-        <div class="col m4">
-        <!-- Modal Trigger -->
-            <a class="waves-effect waves-purple modal-trigger sites" href="#modal4"><img class="responsive-img" src="https://farm5.staticflickr.com/4368/37239643511_0e3bb7fc77_o.png"></a>
-            <h4 class="center grey-text text-darken-1">Baskets by Lila</h4>
-        </div>
-        <!-- Modal Structure -->
-        <div id="modal4" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <img class="responsive-img" src="https://farm5.staticflickr.com/4368/37239643511_0e3bb7fc77_o.png">
-                        <h3>Baskets by Lila</h3>
-                        <div class="divider"></div>
-                        <h5>Languages & Technologies</h5>
-                        <ul>
-                            <li>Python (Django)</li>
-                            <li>JavaScript (jQuery)</li>
-                            <li>HTML & CSS (Bootstrap)</li>
-                        </ul>
-                        <h6>Web application with authenication and authorization features, as well as CRUD operations.</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a href="https://baskets-lila.herokuapp.com/" class="btn waves-effect waves-purple blue">Vist Website</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-purple btn red">Close</a>
-            </div>
-        </div>                      
-       
-        <div class="col m4">
-        <!-- Modal Trigger -->
-            <a class="waves-effect waves-purple modal-trigger sites" href="#modal5"><img class="responsive-img" src="https://farm5.staticflickr.com/4334/37239641561_e53c5a83ed_o.png"></a>
-            <h4 class="center grey-text text-darken-1">RSVP</h4>
-        </div>
-        <!-- Modal Structure -->
-        <div id="modal5" class="modal modal-fixed-footer">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <img class="responsive-img" src="https://farm5.staticflickr.com/4334/37239641561_e53c5a83ed_o.png">
-                        <h3>RSVP</h3>
-                        <div class="divider"></div>
-                        <h5>Languages & Technologies</h5>
-                        <ul>
-                            <li>React</li>
-                            <li>JavaScript (jQuery, Node.js)</li>
-                            <li>HTML & CSS (Bootstrap)</li>
-                        </ul>
-                        <h6>A React application that lets you make an RSVP list for any occasion.</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a href="https://rsvp-invite.herokuapp.com/" class="btn waves-effect waves-purple blue">Vist Website</a>
-                <a href="#!" class="modal-action modal-close waves-effect waves-purple btn red">Close</a>
-            </div>
-        </div>          
     </div>
-</div>
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script>
-    $(".button-collapse").sideNav();
-
-    $(document).ready(function(){
-        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-        $('.modal').modal();
-    });           
-</script>
+<!--/Main Content -->
+<!--Portfolio Section -->
+    <div class="container-fluid portfolio-one" style="padding: 0; margin: 0;">
+        <div class="container pb-5">
+            <img class="img-fluid" src="img/spacebar-portfolio.png">
+            <h1 class="text-center text-white">SpaceBars</h1>
+            <h4 class="text-center text-white">Django/Materialize</h4>
+            <p class="text-center text-white col-md-8 offset-md-2">Web application that allows you to check out how crowded 
+                your favorite bar is before you leave the house. So you won't be stuck standing around.</p>
+            <a href="https://crowd-app.herokuapp.com/" class="btn text-white col-md-2 offset-md-5 mt-3" style="background-color: #90caf9;">VIST WEBSITE</a>
+        </div>
+    </div>
+    <div class="container-fluid portfolio-two">
+        <div class="container pb-5">
+            <img class="img-fluid" src="img/fattaddy-portfolio.png">
+            <h1 class="text-center text-white">Fat Taddy</h1>
+            <h4 class="text-center text-white">Django/Bootstrap</h4>
+            <p class="text-center text-white">This is a web application which contains satrical reviews of local New 
+                Mexican craft beer.</p>
+            <a href="https://fat-taddy.herokuapp.com/" class="btn text-white col-md-2 offset-md-5 mt-3" style="background-color: indianred;">VIST WEBSITE</a>
+        </div>
+    </div>
+    <div class="container-fluid portfolio-three">
+        <div class="container pb-5">
+            <img class="img-fluid" src="img/fakesite-portfolio.png">
+            <h1 class="text-center text-white">Book Nerd</h1>
+            <h4 class="text-center text-white">Express.js/Bootstrap</h4>
+            <p class="text-center text-white">Fake company website, just to show off various front end development 
+                techniques.</p>
+            <a href="https://fakecompanysite.herokuapp.com/" class="btn text-white col-md-2 offset-md-5 mt-3" style="background-color: #3F51B5;">VIST WEBSITE</a>
+        </div>
+    </div>
+    <div class="container-fluid portfolio-four">
+        <div class="container pb-5">
+            <img class="img-fluid" src="img/portfolio-basket.png">
+            <h1 class="text-center text-white">Baskets by Lila</h1>
+            <h4 class="text-center text-white">Django/Bootstrap</h4>
+            <p class="text-center text-white">Web application with authenication and authorization features, 
+                as well as CRUD operations.</p>
+            <a href="https://baskets-lila.herokuapp.com/" class="btn text-white col-md-2 offset-md-5 mt-3" style="background-color: indianred;">VIST WEBSITE</a>                
+        </div>
+    </div>
+    <div class="container-fluid portfolio-five">
+        <div class="container pb-5">
+            <img class="img-fluid" src="img/rsvp-portfolio.png">
+            <h1 class="text-center text-white">RSVP</h1>
+            <h4 class="text-center text-white">React/Bootstrap</h4>
+            <p class="text-center text-white">A React application that lets you make an RSVP list for any 
+                occasion.</p>
+            <a href="https://rsvp-invite.herokuapp.com/" class="btn text-white col-md-2 offset-md-5 mt-3" style="background-color: #1d75a1;">VIST WEBSITE</a>
+        </div>
+    </div>
+<!--/Portfolio Section -->
+    <footer>
+        <div class="container-fluid footer-section pt-4">
+            <div class="container">
+                <h4 class="text-center mb-3" style="color: white;">Contact Me</h4>
+                <div class="row text-center">
+                    <div class="col-md-1 offset-md-5">
+                        <a href="https://twitter.com/BronsonRoybal"><i class="devicon-twitter-plain contact-icons" style="font-size: 3rem;"></i></a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="https://github.com/Bronson88"><i class="devicon-github-plain contact-icons" style="font-size: 3rem;"></i></a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12 my-3">
+                        <p class="">&copy; 2017 Bronson Roybal. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
