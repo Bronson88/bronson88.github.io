@@ -15,6 +15,7 @@ hr {
 }
 
 h1 {
+    font-family: 'Raleway', cursive;
     color: #5095f5;
 }
 
@@ -23,6 +24,7 @@ h4 {
 }
 
 p {
+    font-family: 'Raleway', cursive;
     margin: 0;
 }
 
