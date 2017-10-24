@@ -5,124 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bronson's Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/layout.css" type="text/css">
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper teal lighten-3">
-            <a href="index.html" class="brand-logo"><img height="65" src="img/dragon.png"></a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>
+<div class="background">
+    <div class="main">  
+<!-- Navigation -->
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img height="80" src="img/avatar.svg" alt=""></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="resume.html">Resume</a>
+                </div>
+            </div>
+        </nav>
+<!-- /Navigation -->
+<!-- Header -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center">
+                <h1 class="display-3">I'm Bronson</h1>
+                <p class="lead">Web Application & Front End Developer.</p>
+            </div>
+        </div>
+<!-- /Header -->
+    </div>
+</div>  
+<!-- Main Content -->
+<div class="container">
+    <div class="resume-content">
+        <h1><b>Resume</b></h1>
+        <hr>
+        <h3><b>Qualifications Summary</b></h3>
+        <p class="col-md-9">Web application developer with experience in all stages of the
+            development cycle of web application projects, design to deployment. Well-versed in Python(Django), React, Bootstrap, and Node.js. 
+            As well as, experience with responsive design and RESTful API's. Excellent communication and writing skills, in addition to experience with customer service. </p>
+
+        <h3 class=""><b>Technical Skills</b></h3>
+        <div class="row tech-skills">
+            <ul class="col-md-3 offset-md-1 ">
+                <li>Python (Django)</li>
+                <li>JavaScript (Express, React)</li>
+                <li>Ruby (Ruby on Rails)</li>
             </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><div class="user-view">
-                    <div class="background">
-                        <img class="responsive-img" src="https://static.pexels.com/photos/316594/pexels-photo-316594.jpeg">
-                    </div>
-                    <a href="#!user"><img class="circle" src="https://pbs.twimg.com/profile_images/919877797870366729/sqacCMJg_400x400.jpg"></a>
-                    <a href="#!name"><span class="white-text name">Bronson Roybal</span></a>
-                    <a href="#!email"><span class="white-text email">Web App Developer</span></a>
-                </div></li>
-                <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-                <li><a href="skills.html"><i class="material-icons">code</i>Skills</a></li>
-                <li><a href="portfolio.html"><i class="material-icons">computer</i>Portfolio</a></li>
-                <li><a href="resume.html"><i class="material-icons blue-text text-lighten-2">assessment</i>Resume</a></li>
-                <li><div class="divider"></div></li>
-                <li><a class="subheader">Contact Me</a></li>
-                <li><a class="waves-effect" href="https://twitter.com/BronsonRoybal"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>Twitter</a></li>
-                <li><a class="waves-effect" href="https://github.com/Bronson88"><i class="fa fa-github fa-2x" aria-hidden="true"></i>GitHub</a></li>
+            <ul class="col-md-3">
+                <li>HTML & CSS (Bootstrap, Pug)</li>
+                <li>SQL, MongoDB</li>
+                <li>Git, GitHub</li>
+            </ul>
+            <ul class="col-md-3">
+                <li>Responsive Design</li>
+                <li>API Design & Integration</li>
+                <li>NPM & Pip</li>
             </ul>
         </div>
-    </nav>
 
-    <div class="container">
-            <div class="resume-content">
-                <h1 class="teal-text text-lighten-3"><b>Resume</b></h1>
-                <hr class="resume-line">
-                <h3><b>Qualifications Summary</b></h3>
-                <p class="col m9">Web application developer with experience in all stages of the
-                    development cycle of web application projects, design to deployment. Well-versed in Python(Django), React, Bootstrap, and Node.js. 
-                    As well as, experience with responsive design and RESTful API's. Excellent communication and writing skills, in addition to experience with customer service. </p>
-        
-                <h3 class=""><b>Technical Skills</b></h3>
-                <div class="row tech-skills">
-                    <ul class="col s12 m3 offset-m1 offset-s1">
-                        <li>Python (Django)</li>
-                        <li>JavaScript (Express, React)</li>
-                        <li>Ruby (Ruby on Rails)</li>
-                    </ul>
-                    <ul class="col s12 m3 offset-s1">
-                        <li>HTML & CSS (Bootstrap, Pug)</li>
-                        <li>SQL, MongoDB</li>
-                        <li>Git, GitHub</li>
-                    </ul>
-                    <ul class="col s12 m3 offset-s1">
-                        <li>Responsive Design</li>
-                        <li>API Design & Integration</li>
-                        <li>NPM & Pip</li>
-                    </ul>
-                </div>
-        
-                <h3><b>Employment</b></h3>
-                <hr>
-                <h4><b>Freelance Web Development</b></h4>
-                <h5>Aug 2016 - Present, Albuquerque</h5>
-                <div class="row">
-                    <ul class="job-skills col offset-s1">
-                        <li>UI/UX Design, SEO, Brand Development & Marketing</li>
-                        <li>Building Scalable Web Architecture, Content Generation & Web Maintenance</li>
-                        <li>Working Closely with Clients, Improving Social Media Presence</li>
-                    </ul>
-                </div>
+        <h3><b>Employment</b></h3>
+        <hr>
+        <h4><b>Freelance Web Development</b></h4>
+        <h5>Aug 2016 - Present, Albuquerque</h5>
+        <div class="row">
+            <ul class="job-skills">
+                <li>UI/UX Design, SEO, Brand Development & Marketing</li>
+                <li>Building Scalable Web Architecture, Content Generation & Web Maintenance</li>
+                <li>Working Closely with Clients, Improving Social Media Presence</li>
+            </ul>
+        </div>
 
-                <h4><b>YouTube Content Creator</b></h4>
-                <h5>Oct 2015 - Dec 2016, Albuquerque</h5>
-                <div class="row">
-                    <ul class="job-skills col offset-s1">
-                        <li>Professional Video Editing with Premier Pro & Photoshop</li>
-                        <li>SEO Management, Marketing, Data Analytics, Social Media, & Public Relations</li>
-                        <li>Maintaining a top 1% Channel in Terms of Subscribers</li>
-                    </ul>
-                </div>
+        <h4><b>YouTube Content Creator</b></h4>
+        <h5>Oct 2015 - Dec 2016, Albuquerque</h5>
+        <div class="row">
+            <ul class="job-skills">
+                <li>Professional Video Editing with Premier Pro & Photoshop</li>
+                <li>SEO Management, Marketing, Data Analytics, Social Media, & Public Relations</li>
+                <li>Maintaining a top 1% Channel in Terms of Subscribers</li>
+            </ul>
+        </div>
 
-                <h4><b>Operations Manager | Guitar Center</b></h4>
-                <h5>Aug 2013 - Oct 2015, Albuquerque</h5>
-                <div class="row">
-                    <ul class="job-skills col offset-s1">
-                        <li>Hire and train all new employees, customer service & satisfaction</li>
-                        <li>Oversee shipping and receiving, loss prevention, cash management, & business reporting</li>
-                        <li>Merchandising of product & pricing, scheduling, ensuring proper staffing levels, & overall maintenance of facility</li>
-                    </ul>
+        <h4><b>Operations Manager | Guitar Center</b></h4>
+        <h5>Aug 2013 - Oct 2015, Albuquerque</h5>
+        <div class="row">
+            <ul class="job-skills">
+                <li>Hire and train all new employees, customer service & satisfaction</li>
+                <li>Oversee shipping and receiving, loss prevention, cash management, & business reporting</li>
+                <li>Merchandising of product & pricing, scheduling, ensuring proper staffing levels, & overall maintenance of facility</li>
+            </ul>
+        </div>
+        <h3><b>Education</b></h3>
+        <hr>
+        <div>
+            <h4><b>University of New Mexico</b></h4>
+            <h5>May 2013 - Double Major B.A. Psychology & B.A. Philosophy</h5>
+            <h5>Dean's List - 2009, 2012</h5>
+        </div>
+        <div>
+            <h4><b>Treehouse, Online Coding School</b></h4>
+            <h5> Aug 2016 - Present</h5>
+            <h5>Emphasis on Python, React, JavaScript, HTML, CSS, Ruby and Node.js</h5>
+        </div>
+    </div>
+</div>
+
+<!--/Main Content -->
+    <footer>
+        <div class="container-fluid footer-section pt-4">
+            <div class="container">
+                <h4 class="text-center mb-3" style="color: white;">Contact Me</h4>
+                <div class="row text-center">
+                    <div class="col-md-1 offset-md-5">
+                        <a href="https://twitter.com/BronsonRoybal"><i class="devicon-twitter-plain contact-icons" style="font-size: 3rem;"></i></a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="https://github.com/Bronson88"><i class="devicon-github-plain contact-icons" style="font-size: 3rem;"></i></a>
+                    </div>
                 </div>
-                <h3><b>Education</b></h3>
-                <hr>
-                <div>
-                    <h4><b>University of New Mexico</b></h4>
-                    <h5>May 2013 - Double Major B.A. Psychology & B.A. Philosophy</h5>
-                    <h5>Dean's List - 2009, 2012</h5>
-                </div>
-                <div>
-                    <h4><b>Treehouse, Online Coding School</b></h4>
-                    <h5> Aug 2016 - Present</h5>
-                    <h5>Emphasis on Python, React, JavaScript, HTML, CSS, Ruby and Node.js</h5>
+                <div class="row text-center">
+                    <div class="col-md-12 my-3">
+                        <p class="">&copy; 2017 Bronson Roybal. All Rights Reserved.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        
-
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script>
-    $(".button-collapse").sideNav();           
-</script>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
